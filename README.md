@@ -36,3 +36,26 @@
 12. Gradio HuggingFace
 	1. Connect to Mistral and FLUX using gradio client
 
+
+# 🧠 Deep Learning with PyTorch – Learning Journey
+
+This collection of notebooks is organized to show my progress from foundational concepts to advanced applications. Click the badges to open them in Google Colab.
+
+## 📚 Notebooks
+
+| Module / Topic                  | Notebook Title                                      | Description                                                                 | Run Online |
+|-------------------------------|------------------------------------------------------|-----------------------------------------------------------------------------|------------|
+| **1. Foundations**            | Playing with Tensors and Dimensions                 | Introduction to PyTorch tensors, dimensionality, and tensor operations.    | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/pytorch_tutorial_tensors.ipynb) |
+| **2. Linear Regression**      | Linear Regression AutoGrad - Math Breakdown         | Manual implementation of linear regression with gradient computation and weight updates. | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/linear_regression_autograd.ipynb) |
+|                               | Linear Regression with PyTorch Autograd             | Using PyTorch's autograd for prediction, gradients, and weight updates.    | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/pytroch_autograd.ipynb) |
+| **3. Optimization**           | Model Loss and Optimizer                            | Exploring MSE loss and SGD optimization in PyTorch.                         | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/model_loss_optimizer.ipynb) |
+| **4. Neural Networks**        | First Neural Network - MNIST                        | Full pipeline: loading MNIST, preprocessing, defining NN, and training.    | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/first_neural_net.ipynb) |
+| **5. Loss Functions**         | Softmax vs Cross Entropy Loss                       | Deep dive into LogSoftMax and Negative Log Likelihood loss.                | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Adhira-Deogade/pytorch-learnings/blob/main/softmax_and_cross_entropy_loss.ipynb) |
+| **6. Convolutional Nets**     | CNN - CIFAR10 vs MNIST                              | Comparison of datasets, CNN architectures, and training pipeline.          | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+|                               | CNN - Test                                          | Analyze CNN layers, tensor sizes, MaxPooling, and architecture components. | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+|                               | CNN - Classification on Custom Images               | Custom testing functions for classifying new images using trained CNN.     | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+| **7. Evaluation**             | Model Evaluation - Fashion MNIST                    | Evaluate a fully connected NN on the Fashion MNIST dataset.                | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+| **8. LangChain Integration**  | WebBaseLoader - Classify News Articles              | Use LangChain’s WebBaseLoader to classify articles by content, date, and URL. | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+| **9. UI & Deployment**        | Gradio + HuggingFace Integration                    | Create interactive web demos for models using Gradio and HuggingFace.      | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)]() |
+
+---
